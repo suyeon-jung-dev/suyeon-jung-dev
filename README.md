@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 # Index
 
-## [Roadmap]([BackendJuniorLoadmap.md](./learning-records/roadmap/BackendJuniorLoadmap.md))
+## [Roadmap]((./learning-records/roadmap/BackendJuniorLoadmap.md))
 ## [Data Engineering]()
 ## [DevOps]()
 ## [ETC]()
