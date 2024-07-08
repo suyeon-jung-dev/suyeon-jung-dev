@@ -29,5 +29,11 @@ Here are some ideas to get you started:
 - [Gitlab환경구축하기](learning-records/DevOps/Gitlab%ED%99%98%EA%B2%BD%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0.md)
 - [Gitlab 트러블슈팅 기록](learning-records/DevOps/Gitlab_TroubleShooting.md)
 
+## Go
+
+## Chaos Engineering
+[//]: # (TODO - 오픈소스 종류 알아보고 비교하기)
+[//]: # (TODO - CNCF 중요 프로젝트 발표자료 아날로그 메모 옮기기)
+
 ## [ETC](learning-records/ETC)
-- [서비스장애잘이애하고대처하기](learning-records/ETC/%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9E%A5%EC%95%A0%EC%9E%98%EC%9D%B4%EC%95%A0%ED%95%98%EA%B3%A0%EB%8C%80%EC%B2%98%ED%95%98%EA%B8%B0.md)
+- [서비스장애 잘 이애하고 대처하기](learning-records/ETC/%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9E%A5%EC%95%A0%EC%9E%98%EC%9D%B4%EC%95%A0%ED%95%98%EA%B3%A0%EB%8C%80%EC%B2%98%ED%95%98%EA%B8%B0.md)
