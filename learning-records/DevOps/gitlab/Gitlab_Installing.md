@@ -4,7 +4,7 @@
   * 기존 사내 서버의 DB가 이미 docker compose 로 관리되고 있었고 쉬운 유지보수 
 * Gitlab Tier 는 Gitlab Community Edition (CE) 가 아닌 Enterprise Edidiont (EE) 로 선택
   * EE 의 Core Tier 를 이용하면 무료로 사용할 수 있고 CE -> EE 보다 EE core -> EE standard 가 더 쉽기 때문에 굳이 CE를 이용할 필요가 없음. (즉, 추후 유료버전 사용이 쉽도록 EE core 선택)
-  * Gitlab CE 를 직접 커스텀 해서 사용할 일이 없을 것이라 판단.
+  * Gitlab CE 오픈소스를 직접 커스텀 해서 사용할 일이 없고, 사내 인프라 용이기 때문에 굳이 오픈소스만 이용해야 할 이유가 없었음.
 
 단점
 - GitLab 자체 릴리즈 및 보안패치 주기적으로 확인 필요
