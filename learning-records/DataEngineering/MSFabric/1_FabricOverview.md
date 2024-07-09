@@ -16,7 +16,7 @@ SaaS 형태의 제품으로 데이터 전문가들이 협업할 수 있는 단�
 위의 서비스들을 사용 할 수 있습니다.
 
 ## OneLake 란?
-![img.png](OneLake.png)
+![img.png](images/OneLake.png)
 다양항 벤더사의 서비스들을 Fabric 한곳에서 관리하는데, 플랫폼 내의 모든 데이터는 OneLake 에서 접근 가능합니다. 이를 통해 [데이터 사일로 현상](https://www.moef.go.kr/sisa/dictionary/detail?idx=1351)이 방지됩니다.
 데이터용 OneDrive 처럼 생각하면 쉽습니다.
 
