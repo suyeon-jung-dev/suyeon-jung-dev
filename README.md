@@ -26,8 +26,9 @@ Here are some ideas to get you started:
   - [Spark Overview](learning-records/DataEngineering/Spark/1_Spark_Overview.md)
 
 ## [DevOps](learning-records/DevOps)
-- [Gitlab환경구축하기](learning-records/DevOps/Gitlab%ED%99%98%EA%B2%BD%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0.md)
+- [Gitlab 환경 구축하기](learning-records/DevOps/Gitlab_Installing.md)
 - [Gitlab 트러블슈팅 기록](learning-records/DevOps/Gitlab_TroubleShooting.md)
+- [Gitlab Text Editor 사용성 개선기](learning-records/DevOps/Gitlab_Improving_Text_Editor_Usability)
 
 ## Go
 
