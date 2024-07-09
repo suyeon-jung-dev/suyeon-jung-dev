@@ -28,7 +28,7 @@ Here are some ideas to get you started:
 ## [DevOps](learning-records/DevOps)
 - [Gitlab 환경 구축하기](learning-records/DevOps/Gitlab_Installing.md)
 - [Gitlab 트러블슈팅 기록](learning-records/DevOps/Gitlab_TroubleShooting.md)
-- [Gitlab Text Editor 사용성 개선기](learning-records/DevOps/Gitlab_Improving_Text_Editor_Usability)
+- [Gitlab Text Editor 사용성 개선기](learning-records/DevOps/Gitlab_Improving_Text_Editor_Usability.md)
 
 ## Go
 
