@@ -31,6 +31,6 @@ Ref: https://about.gitlab.com/releases/#historic-releases
 16.11 버전으로 업데이트 되어서야 제대로 동작했다.
 
 하지만 탭 단축키는 아직 해결되지 않은 것 같다..
-아래 사진은 16.111 버전 가이드.
+아래 사진은 16.11 버전 가이드.
 ![indent_guide.png](images/indent_guide.png)
 Ref: https://docs.gitlab.com/16.11/ee/user/markdown.html
