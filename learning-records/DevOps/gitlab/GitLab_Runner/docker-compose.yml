@@ -1,0 +1,17 @@
+services:
+  gitlab-runner:
+    image: 'gitlab/gitlab-runner:v16.11.2'
+    container_name: gitlab-runner
+    restart: unless-stopped
+    networks:
+      - gitlab-network
+    volumes:
+      - './config:/etc/gitlab-runner'
+      - '/var/run/docker.sock:/var/run/docker.sock'
+    ports:
+      - "8093:8093"
+    expose:
+      - "80"
+networks:
+  gitlab-network:
+    driver: bridge

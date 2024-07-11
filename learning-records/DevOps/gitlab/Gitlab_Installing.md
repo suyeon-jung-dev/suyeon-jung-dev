@@ -1,4 +1,4 @@
-# Gitlab 환경 구축하기
+# 단일 서버에서 Gitlab + Gitlab Runner 환경 구축하기 [Setting up GitLab + GitLab Runner on a Single Server]
 
 * Gitlab 은 docker compose 로 진행
   * 기존 사내 서버의 DB가 이미 docker compose 로 관리되고 있었고 쉬운 유지보수 
@@ -14,7 +14,16 @@
 - 노션 대신 워크플로우 구성 가능
 - 배포 파이프라인 구성 및 봇 사용 가능 
 
-[추가]
+## Spec
+- GitLab `16.11.6`
+- GitLab Runner `16.11.2`
+
+> [!IMPORTANT] <br>
+> GitLab Runner 버전은 Gitlab 버전과 동일하게 맞춰야 합니다.
+> Ref. https://docs.gitlab.com/runner/#gitlab-runner-versions
+
+
+[추가 설정]
 - SMTP 설정
   - https://www.bearpooh.com/116
 
@@ -22,27 +31,63 @@ docker-compose.yaml
 ```yaml
 services:
   gitlab:
-    image: gitlab/gitlab-ee:16.6.8-ee.0
+    image: gitlab/gitlab-ee:16.11.6-ee.0
     platform: linux/amd64
-    container_name: gitlab
+    container_name: ${INTERNAL_GITLAB_HOSTNAME}
     restart: always
-    hostname: ${GITLAB_HOSTNAME}
+    hostname: gitlab.bd
     environment:
       GITLAB_OMNIBUS_CONFIG: |
-        external_url 'http://${GITLAB_HOSTNAME}/gitlab/'
+        external_url 'http://${INTERNAL_GITLAB_HOSTNAME}/gitlab/'
+    networks:
+      - gitlab-network
     ports:
       - '80:80'
       - '443:443'
-      - '2222:22' ## 22 는 해당 서버에서 ssh 접속을 위해 사용중이므로 2222 로 gitlab ssh 접속 포트 변경
+      - '2222:22'
     volumes:
       - '${GITLAB_HOME}/config:/etc/gitlab'
       - '${GITLAB_HOME}/logs:/var/log/gitlab'
       - '${GITLAB_HOME}/data:/var/opt/gitlab'
     shm_size: '256m'
+
+  gitlab-runner:
+    image: 'gitlab/gitlab-runner:v16.11.2'
+    container_name: gitlab-runner
+    restart: unless-stopped
+    depends_on:
+      - gitlab
+    networks:
+      - gitlab-network
+    volumes:
+      - './runner/config:/etc/gitlab-runner'
+      - '/var/run/docker.sock:/var/run/docker.sock'
+    ports:
+      - "8093:8093"
+    expose:
+      - "80"
+networks:
+  gitlab-network:
+    driver: bridge
 ```
 
 .env
 ```yaml
 GITLAB_HOSTNAME=
 GITLAB_HOME=
+INTERNAL_GITLAB_HOSTNAME= # gitlab 과 gitlab runner 내부 통신용도로 쓰일 호스트명을 마음대로 지정해주세요. 도커이기 때문에 외부로 실제 외부에서 접근하는 도메인과는 다릅니다. 
 ```
+
+## how to setup
+1. 도커 띄우기
+```shell
+docker-compose up -d
+```
+
+2. GitLab 에 Gitlab Runner 등록
+
+> 어떤 권한의 Gitlab Runner 로 등록할 것 인지 선택 후 이후 과정 진행.
+> Ref. https://docs.gitlab.com/runner/#who-has-access-to-runners-in-the-gitlab-ui
+
+저는 그룹에 상관없이 한개의 Gitlab Runner 로 모든 파이프라인을 구성할 것 이기 때문에, Instance Runner 사용했습니다.
+

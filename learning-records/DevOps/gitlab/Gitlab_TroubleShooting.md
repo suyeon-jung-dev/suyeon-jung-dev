@@ -1,4 +1,4 @@
-# Gitlab 설정 Trouble Shooing Log
+# Gitlab 설정 Trouble Shooting Log
 
 - Version Upgrade 는 문서에 제시된 버전에 따라 순차적으로 적용 해야 함.
   Ref: https://docs.gitlab.com/ee/update/index.html#upgrade-paths
