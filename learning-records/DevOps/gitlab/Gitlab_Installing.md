@@ -35,7 +35,7 @@ services:
     platform: linux/amd64
     container_name: ${INTERNAL_GITLAB_HOSTNAME}
     restart: always
-    hostname: gitlab.bd
+    hostname: ${INTERNAL_GITLAB_HOSTNAME}
     environment:
       GITLAB_OMNIBUS_CONFIG: |
         external_url 'http://${INTERNAL_GITLAB_HOSTNAME}/gitlab/'
