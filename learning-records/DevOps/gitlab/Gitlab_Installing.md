@@ -86,7 +86,7 @@ docker-compose up -d
 
 2. GitLab 에 Gitlab Runner 등록
 
-> 어떤 권한의 Gitlab Runner 로 등록할 것 인지 선택 후 이후 과정 진행.
+> 어떤 권한의 Gitlab Runner 로 등록할 것 인지 선택 후 이후 과정 진행. <br>
 > Ref. https://docs.gitlab.com/runner/#who-has-access-to-runners-in-the-gitlab-ui
 
 저는 그룹에 상관없이 한개의 Gitlab Runner 로 모든 파이프라인을 구성할 것 이기 때문에, Instance Runner 사용했습니다.

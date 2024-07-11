@@ -31,7 +31,6 @@ Here are some ideas to get you started:
   - [GitLab 백업하기]()
   - [Gitlab 트러블슈팅 기록](learning-records/DevOps/gitlab/Gitlab_TroubleShooting.md)
   - [Gitlab Text Editor 사용성 개선기](learning-records/DevOps/gitlab/Gitlab_Improving_Text_Editor_Usability.md)
-  - 
 
 ## Go
 
