@@ -83,6 +83,7 @@ graph TD
     DevOps --> Kube[Docker/Kubernetes]:::blue
     Kube --> kube1[시작하세요! 도커/쿠버네티스 - 용찬호]
     kube1 --> kube2[쿠버네티스 인 액션 - 마르코 룩샤]
+    kube2 --> kube3[쿠버네티스를 활용한 클라우드 네이티브 데브옵스 - 존 어런들]
 %%    DevOps --> CICD["`CI/CD`"]
 %%    CICD --> cicd1[젠킨스 2 시작하기 - 브렌트 래스터]
 
@@ -99,7 +100,7 @@ graph TD
 3. 그리고 필요하다면(업무에) 도커와 쿠버네티스 관련 기반지식을 쌓는 것을 추천드립니다. (DevOps 는 백엔드의 기본이 되어가고 있습니다.)
 
 
-## Data Engineering Roadmap [작성중.. PR 환영합니다😊]
+## Data Engineering Roadmap [작성중]
 
 ```mermaid
 graph TD
