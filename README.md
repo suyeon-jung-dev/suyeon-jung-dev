@@ -15,24 +15,31 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Index
+## Work
+- 2023.03 - now     | SKT ifland
+- 2021.04 - 2021.08 | SKT ifland Studio
+- 2020.09 - 2022.07 | SKT JumpAR
 
-## [Backend roadmap for java](learning-records/roadmap/BackendJuniorLoadmap.md)
+## Archiving
 
-## [Data Engineering](learning-records/DataEngineering)
+### [Backend roadmap for java](learning-records/roadmap/BackendJuniorLoadmap.md)
+
+### [Data Engineering](learning-records/DataEngineering)
 - [MSFabric](learning-records/DataEngineering/MSFabric)
 - [Airflow](learning-records/DataEngineering/Airflow)
 - [Spark](learning-records/DataEngineering/Spark)
   - [Spark Overview](learning-records/DataEngineering/Spark/1_Spark_Overview.md)
 
-## [DevOps](learning-records/DevOps)
+### [DevOps](learning-records/DevOps)
 - [GitLab](learning-records/DevOps/gitlab)
   - [Gitlab 환경 구축하기](learning-records/DevOps/gitlab/Gitlab_Installing.md)
   - [GitLab 백업하기]()
   - [Gitlab 트러블슈팅 기록](learning-records/DevOps/gitlab/Gitlab_TroubleShooting.md)
   - [Gitlab Text Editor 사용성 개선기](learning-records/DevOps/gitlab/Gitlab_Improving_Text_Editor_Usability.md)
 
-## Go
+### [Go](learning-records/golang)
+- [go grammar](learning-records/golang/golang_grammer.md)
+- [go convention](learning-records/golang/golang_convention.md)
 
 ## Chaos Engineering
 [//]: # (TODO - 오픈소스 종류 알아보고 비교하기)
