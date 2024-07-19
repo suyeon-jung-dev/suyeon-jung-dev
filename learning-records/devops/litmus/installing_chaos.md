@@ -43,7 +43,7 @@ kube-system       Active   17h
 litmus            Active   17s
 ```
 
-#### 3. ARM 기반 MondoDB 로 이미지 변경하여 ChaosCenter 설치
+3. ARM 기반 MondoDB 로 이미지 변경하여 ChaosCenter 설치
 ```shell
 ➜  ossca helm install chaos litmuschaos/litmus --namespace=litmus \
 --set portal.frontend.service.type=NodePort \
@@ -111,4 +111,10 @@ chaos-mongodb-arbiter-0                    1/1     Running            17 (3m27s 
     namespace "litmus" deleted
     ```    
 위에 정의된 ARM 지원하는 MongoDB 이미지로 재설치
+
+> 이래도 안되면.. helm repo 에서 litmuschaos 도 삭제 후 다시 시도 해보시면 됩니다.
+```shell
+helm repo remove litmuschaos
+```
+
 

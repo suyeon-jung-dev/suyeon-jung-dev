@@ -43,6 +43,9 @@ Here are some ideas to get you started:
 
 ## Chaos Engineering
 - [Litmus Chaos 설치하기](learning-records/devops/litmus/installing_chaos.md)
+- [minikube 에서 ChaosCenter 접속하기](learning-records/devops/litmus/accessing-chaos-center.md)
+
+
 [//]: # (TODO - 오픈소스 종류 알아보고 비교하기)
 [//]: # (TODO - CNCF 중요 프로젝트 발표자료 아날로그 메모 옮기기)
 
