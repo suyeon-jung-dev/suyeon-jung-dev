@@ -15,8 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-## Work
-- 2023.03 - now     | SKT ifland
+## Work with..
+- 2023.03 - Now     | SKT ifland
 - 2021.04 - 2021.08 | SKT ifland Studio
 - 2020.09 - 2022.07 | SKT JumpAR
 
