@@ -24,27 +24,27 @@ Here are some ideas to get you started:
 
 ### [Backend roadmap for java](learning-records/roadmap/BackendJuniorLoadmap.md)
 
-### [Data Engineering](learning-records/DataEngineering)
-- [MSFabric](learning-records/DataEngineering/MSFabric)
-- [Airflow](learning-records/DataEngineering/Airflow)
-- [Spark](learning-records/DataEngineering/Spark)
-  - [Spark Overview](learning-records/DataEngineering/Spark/1_Spark_Overview.md)
+### [Data Engineering](learning-records/data-engineering)
+- [MSFabric](learning-records/data-engineering/MSFabric)
+- [Airflow](learning-records/data-engineering/Airflow)
+- [Spark](learning-records/data-engineering/Spark)
+  - [Spark Overview](learning-records/data-engineering/Spark/1_Spark_Overview.md)
 
-### [DevOps](learning-records/DevOps)
-- [GitLab](learning-records/DevOps/gitlab)
-  - [Gitlab 환경 구축하기](learning-records/DevOps/gitlab/Gitlab_Installing.md)
+### [DevOps](learning-records/devops)
+- [GitLab](learning-records/devops/gitlab)
+  - [Gitlab 환경 구축하기](learning-records/devops/gitlab/Gitlab_Installing.md)
   - GitLab 백업하기()
-  - [Gitlab 운영노트](learning-records/DevOps/gitlab/Gitlab_TroubleShooting.md)
-  - [Gitlab Text Editor 사용성 개선기](learning-records/DevOps/gitlab/Gitlab_Improving_Text_Editor_Usability.md)
+  - [Gitlab 운영노트](learning-records/devops/gitlab/Gitlab_TroubleShooting.md)
+  - [Gitlab Text Editor 사용성 개선기](learning-records/devops/gitlab/Gitlab_Improving_Text_Editor_Usability.md)
 
 ### [Go](learning-records/golang)
 - [go grammar](learning-records/golang/golang_grammer.md)
 - [go convention](learning-records/golang/golang_convention.md)
 
 ## Chaos Engineering
-- [Litmus Chaos 설치하기](learning-records/DevOps/litmus/installing_chaos.md)
+- [Litmus Chaos 설치하기](learning-records/devops/litmus/installing_chaos.md)
 [//]: # (TODO - 오픈소스 종류 알아보고 비교하기)
 [//]: # (TODO - CNCF 중요 프로젝트 발표자료 아날로그 메모 옮기기)
 
-## [ETC](learning-records/ETC)
-- [서비스장애 잘 이애하고 대처하기](learning-records/ETC/%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9E%A5%EC%95%A0%EC%9E%98%EC%9D%B4%EC%95%A0%ED%95%98%EA%B3%A0%EB%8C%80%EC%B2%98%ED%95%98%EA%B8%B0.md)
+## [ETC](learning-records/etc)
+- [서비스장애 잘 이애하고 대처하기](learning-records/etc/%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9E%A5%EC%95%A0%EC%9E%98%EC%9D%B4%EC%95%A0%ED%95%98%EA%B3%A0%EB%8C%80%EC%B2%98%ED%95%98%EA%B8%B0.md)
