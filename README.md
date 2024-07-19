@@ -33,7 +33,7 @@ Here are some ideas to get you started:
 ### [DevOps](learning-records/devops)
 - [GitLab](learning-records/devops/gitlab)
   - [Gitlab 환경 구축하기](learning-records/devops/gitlab/Gitlab_Installing.md)
-  - GitLab 백업하기()
+  - GitLab 백업하기
   - [Gitlab 운영노트](learning-records/devops/gitlab/Gitlab_TroubleShooting.md)
   - [Gitlab Text Editor 사용성 개선기](learning-records/devops/gitlab/Gitlab_Improving_Text_Editor_Usability.md)
 
