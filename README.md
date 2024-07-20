@@ -50,4 +50,4 @@ Here are some ideas to get you started:
 [//]: # (TODO - CNCF 중요 프로젝트 발표자료 아날로그 메모 옮기기)
 
 ## [ETC](learning-records/etc)
-- [서비스장애 잘 이애하고 대처하기](learning-records/etc/%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9E%A5%EC%95%A0%EC%9E%98%EC%9D%B4%EC%95%A0%ED%95%98%EA%B3%A0%EB%8C%80%EC%B2%98%ED%95%98%EA%B8%B0.md)
+- [서비스장애 잘 이해하고 대처하기](learning-records/etc/%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9E%A5%EC%95%A0%EC%9E%98%EC%9D%B4%EC%95%A0%ED%95%98%EA%B3%A0%EB%8C%80%EC%B2%98%ED%95%98%EA%B8%B0.md)
