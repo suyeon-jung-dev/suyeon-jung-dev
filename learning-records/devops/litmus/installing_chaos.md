@@ -26,7 +26,16 @@
        🌟  애드온 활성화 : default-storageclass, storage-provisioner
        🏄  끝났습니다! kubectl이 "minikube" 클러스터와 "default" 네임스페이스를 기본적으로 사용하도록 구성되었습니다.
         ```
-1. 네임스페이스 지정
+1. litmuschaos helm repo 추가
+```shell
+helm repo add litmuschaos https://litmuschaos.github.io/litmus-helm/
+```
+helm repo 잘 받아졌는지 확인
+```shell
+helm repo list
+```
+
+2. 네임스페이스 지정
 ```shell
 ➜  ossca kubectl create ns litmus
 namespace/litmus created
