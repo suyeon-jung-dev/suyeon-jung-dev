@@ -54,11 +54,12 @@ litmus            Active   17s
 
 3. ARM 기반 MondoDB 로 이미지 변경하여 ChaosCenter 설치
 ```shell
-➜  ossca helm install chaos litmuschaos/litmus --namespace=litmus \
+➜  helm install chaos litmuschaos/litmus --namespace=litmus \
 --set portal.frontend.service.type=NodePort \
 --set mongodb.image.registry=ghcr.io/zcube \
 --set mongodb.image.repository=bitnami-compat/mongodb \
---set mongodb.image.tag=6.0.5
+--set mongodb.image.tag=6.0.5 \
+--set litmuschaos.image.tag=3.8.0
 ```
 
 아웃풋은 다음과 같이 확인
