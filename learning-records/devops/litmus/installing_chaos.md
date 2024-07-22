@@ -59,7 +59,7 @@ litmus            Active   17s
 --set mongodb.image.registry=ghcr.io/zcube \
 --set mongodb.image.repository=bitnami-compat/mongodb \
 --set mongodb.image.tag=6.0.5 \
---set litmuschaos.image.tag=3.8.0
+--set litmuschaos.image.tag=3.8.0 # NOTE - auth-server 이슈로 임시적으로 3.8.0 버전 사용하도록 지정
 ```
 
 아웃풋은 다음과 같이 확인
