@@ -15,3 +15,4 @@
 ### 참고하기
 - [Building Beyond Boundaries: A Developer's Guide to Crafting Custom SDKs in Java](https://blogs.halodoc.io/sdks-in-action-real-world-examples-of-java-sdk-success-stories/)
 - [IBM - SDK Developer's Guide](https://www.ibm.com/docs/en/taddm/7.3.0?topic=integration-sdk-developers-guide)
+- [참고할만한 도서일까?](https://product.kyobobook.co.kr/detail/S000003573657)
