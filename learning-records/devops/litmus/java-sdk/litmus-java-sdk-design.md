@@ -11,3 +11,7 @@
 ### 찾아보기
 - GraphQL java-sdk 오픈소스
 - restapi client sdk 오픈소스
+
+### 참고하기
+- [Building Beyond Boundaries: A Developer's Guide to Crafting Custom SDKs in Java](https://blogs.halodoc.io/sdks-in-action-real-world-examples-of-java-sdk-success-stories/)
+- [IBM - SDK Developer's Guide](https://www.ibm.com/docs/en/taddm/7.3.0?topic=integration-sdk-developers-guide)
