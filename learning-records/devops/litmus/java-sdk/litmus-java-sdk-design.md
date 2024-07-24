@@ -22,6 +22,6 @@
 - GitHub > spring-project/spring-graphql > https://github.com/spring-projects/spring-graphql
 - spring-graphql based on > https://www.graphql-java.com/
   - GraphQL Java - Getting stated > https://www.graphql-java.com/documentation/getting-started/
-    - It required at leat `java 11`
+    - It required at least `java 11`
 - Spring Getting Started GraphQL > https://spring.io/guides/gs/graphql-server
 - GitHub > spring-projects/spring-graphql-examples > https://github.com/spring-projects/spring-graphql-examples
