@@ -18,3 +18,10 @@
 - [Building Beyond Boundaries: A Developer's Guide to Crafting Custom SDKs in Java](https://blogs.halodoc.io/sdks-in-action-real-world-examples-of-java-sdk-success-stories/)
 - [IBM - SDK Developer's Guide](https://www.ibm.com/docs/en/taddm/7.3.0?topic=integration-sdk-developers-guide)
 - [참고할만한 도서일까?](https://product.kyobobook.co.kr/detail/S000003573657)
+- Spring for GraphQL > https://spring.io/projects/spring-graphql
+- GitHub > spring-project/spring-graphql > https://github.com/spring-projects/spring-graphql
+- spring-graphql based on > https://www.graphql-java.com/
+  - GraphQL Java - Getting stated > https://www.graphql-java.com/documentation/getting-started/
+    - It required at leat `java 11`
+- Spring Getting Started GraphQL > https://spring.io/guides/gs/graphql-server
+- GitHub > spring-projects/spring-graphql-examples > https://github.com/spring-projects/spring-graphql-examples
